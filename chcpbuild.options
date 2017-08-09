@@ -1,0 +1,11 @@
+{
+  "dev": {
+    "config-file": "http://42796b4a.ngrok.io/chcp.json"
+  },
+  "production": {
+    "config-file": "http://42796b4a.ngrok.io/chcp.json"
+  },
+  "QA": {
+    "config-file": "http://42796b4a.ngrok.io/chcp.json"
+  }
+}

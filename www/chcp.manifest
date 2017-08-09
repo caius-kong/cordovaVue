@@ -1,0 +1,42 @@
+[
+  {
+    "file": "index.html",
+    "hash": "1ab6a09b9a47c40a8a37a0f8a828adec"
+  },
+  {
+    "file": "static/css/app.7f3c0c93d257a81e0da8180c783ad726.css",
+    "hash": "7ec1fd3caa51d27704098486837163c8"
+  },
+  {
+    "file": "static/css/app.7f3c0c93d257a81e0da8180c783ad726.css.map",
+    "hash": "560ebafa87d48c22f0a3f9cfb8918734"
+  },
+  {
+    "file": "static/img/vux_logo.79cbb96.png",
+    "hash": "79cbb9623312caf6df4d88bd748f6106"
+  },
+  {
+    "file": "static/js/app.f08b97244d2a7d30e454.js",
+    "hash": "60cb4a41551ccb5f4098953cf263822e"
+  },
+  {
+    "file": "static/js/app.f08b97244d2a7d30e454.js.map",
+    "hash": "5a4cd145aec03fe627cc92652800de6b"
+  },
+  {
+    "file": "static/js/manifest.f47a2c8e546e6052dbd1.js",
+    "hash": "fbafdc52cab8baaf09e45fbdc26576ba"
+  },
+  {
+    "file": "static/js/manifest.f47a2c8e546e6052dbd1.js.map",
+    "hash": "774303ec6a7e28aea69c9f97eee10a63"
+  },
+  {
+    "file": "static/js/vendor.777f79adad5aaacdd9cb.js",
+    "hash": "5b7206fd44b44c0f79a9e94730a64801"
+  },
+  {
+    "file": "static/js/vendor.777f79adad5aaacdd9cb.js.map",
+    "hash": "3c1244e999072093163b06639c8594e8"
+  }
+]
