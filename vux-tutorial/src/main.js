@@ -5,9 +5,11 @@ import FastClick from 'fastclick'
 import App from './App'
 import router from './router'
 import store from './vuex'
-import { ToastPlugin } from 'vux'
+import { ToastPlugin, AlertPlugin, ConfirmPlugin } from 'vux'
 
 Vue.use(ToastPlugin)
+Vue.use(AlertPlugin)
+Vue.use(ConfirmPlugin)
 FastClick.attach(document.body)
 
 Vue.config.productionTip = false

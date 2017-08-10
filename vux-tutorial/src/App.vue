@@ -28,7 +28,7 @@
           </span>
           Demo
         </x-header>
-        <router-view></router-view>
+        <router-view id="vux_view_box_body"></router-view>
         <tabbar slot="bottom" icon-class="vux-center" class="vux-demo-tabbar">
           <tabbar-item link="/" :selected="$route.path === '/'">
             <span slot="icon" class="demo-icon-22">&#xe637;</span>
