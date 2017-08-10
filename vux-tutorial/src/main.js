@@ -6,6 +6,7 @@ import App from './App'
 import router from './router'
 import store from './vuex'
 import { ToastPlugin, AlertPlugin, ConfirmPlugin } from 'vux'
+import appUpdate from './appUpdate'
 
 Vue.use(ToastPlugin)
 Vue.use(AlertPlugin)
@@ -20,3 +21,6 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app-box')
+
+/* cordova event listeners */
+appUpdate.initialize()
