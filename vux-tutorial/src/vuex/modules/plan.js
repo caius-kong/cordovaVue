@@ -1,6 +1,31 @@
-import * as types from './mutation-types'
+import * as types from '../types'
 
-export default {
+const state = {
+  totalTime: 0, // 总时间
+  list: []  // 计划列表
+}
+
+const actions = {
+  addTotalTime ({commit}, time) {
+    commit(types.ADD_TOTAL_TIME, time)
+  },
+  decTotalTime ({commit}, time) {
+    commit(types.DEC_TOTAL_TIME, time)
+  },
+  savePlan ({commit}, plan) {
+    commit(types.SAVE_PLAN, plan)
+  },
+  deletePlan ({commit}, plan) {
+    commit(types.DELETE_PLAN, plan)
+  }
+}
+
+const getters = {
+  getTotalTime: totalTime => state.totalTime,
+  loginStatus: list => state.list
+}
+
+const mutations = {
   // 增加总时间
   [types.ADD_TOTAL_TIME] (state, time) {
     state.totalTime = parseInt(state.totalTime) + parseInt(time)
@@ -22,4 +47,11 @@ export default {
   [types.DELETE_PLAN] (state, idx) {
     state.list.splice(idx, 1)
   }
+}
+
+export default {
+  state,
+  actions,
+  getters,
+  mutations
 }

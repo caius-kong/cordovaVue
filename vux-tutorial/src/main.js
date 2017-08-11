@@ -4,7 +4,7 @@ import Vue from 'vue'
 import FastClick from 'fastclick'
 import App from './App'
 import router from './router'
-import store from './vuex'
+import store from './vuex/store'
 import { ToastPlugin, AlertPlugin, ConfirmPlugin } from 'vux'
 import appUpdate from './appUpdate'
 
